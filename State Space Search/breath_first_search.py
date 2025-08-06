@@ -1,7 +1,5 @@
-from sympy.solvers.diophantine.diophantine import reconstruct
-
-from graph import Graph
-from test import test
+from utils.graph import Graph
+from utils.test import test
 
 @test
 def bfs(start='A', target='D', alt=False):

@@ -1,5 +1,5 @@
-from graph import Graph
-from test import test
+from utils.graph import Graph
+from utils.test import test
 
 @test
 def dfs(start='A', target='J', alt=False):

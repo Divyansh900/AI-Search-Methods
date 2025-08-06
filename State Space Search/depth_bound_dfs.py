@@ -1,6 +1,6 @@
-from graph import Graph
-from test import test
-from dfs import dfs
+from utils.graph import Graph
+from utils.test import test
+from depth_first_search import dfs
 
 @test
 def dbdfs(start = 'A', target = 'D', depth_bound=3, alt = False):
