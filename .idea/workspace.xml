@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7135106-a6af-47c3-8c4e-dcfd78371097" name="Changes" comment="" />
+    <list default="true" id="e7135106-a6af-47c3-8c4e-dcfd78371097" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/State Space Search/breath_first_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_search/breath_first_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/State Space Search/depth_bound_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_search/depth_bound_dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/State Space Search/depth_first_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_search/depth_first_search.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +61,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\CODE\NPTEL\AI_search_methods" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CODE\NPTEL\AI_search_methods\utils" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -98,5 +106,15 @@
       <updated>1754462280551</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/state_space_search/depth_first_search.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
