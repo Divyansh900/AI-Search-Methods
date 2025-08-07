@@ -1,6 +1,7 @@
 # Artificial Intelligence :  Search Algorithms Implementation
 
-A comprehensive collection of artificial intelligence search algorithms implemented in Python, covering state space search, heuristic methods, optimization techniques, and game theory.
+A comprehensive collection of artificial intelligence search algorithms implemented in Python, covering state space
+search, heuristic methods, optimization techniques, and game theory.
 
 ## 📁 Repository Structure
 
@@ -92,22 +93,26 @@ ai-search-algorithms/
 ## 🔍 Algorithm Categories
 
 ### 1. **State Space Search**
+
 - **Depth First Search (DFS)**: Explores as far as possible along each branch before backtracking
 - **Breadth First Search (BFS)**: Explores all nodes at present depth before moving to next depth level
 - **Iterative Deepening**: Combines benefits of DFS and BFS with space efficiency
 
 ### 2. **Heuristic Search**
+
 - **Best First Search**: Uses heuristic function to guide search towards goal
 - **Hill Climbing**: Local search that moves towards better neighboring states
 - **Stochastic Local Search**: Introduces randomness to escape local optima
 - **Traveling Salesman Problem**: Classic optimization problem implementations
 
 ### 3. **Population-Based Methods**
+
 - **Genetic Algorithms**: Evolution-inspired optimization using selection, crossover, and mutation
 - **Ant Colony Optimization**: Swarm intelligence for pathfinding and optimization
 - **SAT Solvers**: Boolean satisfiability problem solving techniques
 
 ### 4. **Optimal Path Finding**
+
 - **A\* Algorithm**: Best-first search using admissible heuristics for optimal solutions
 - **Branch & Bound**: Systematic enumeration with pruning for optimization
 - **Weighted A\***: Trading optimality for faster solutions
@@ -115,31 +120,37 @@ ai-search-algorithms/
 - **RBFS**: Recursive best-first search with linear space complexity
 
 ### 5. **Game Playing**
+
 - **Minimax**: Optimal decision making for two-player zero-sum games
 - **Alpha-Beta Pruning**: Optimization of minimax with branch pruning
 - **SSS\***: State-space search for game trees
 
 ### 6. **Automated Planning**
+
 - **STRIPS Planning**: Classical planning with preconditions and effects
 - **Goal Stack Planning**: Subgoal-based planning approach
 - **Plan Space Planning**: Partial order planning methods
 
 ### 7. **Problem Decomposition**
+
 - **Means-Ends Analysis**: Problem solving by reducing differences
 - **Graphplan**: Graph-based planning algorithm
 - **AO\***: AND-OR graph search for decomposable problems
 
 ### 8. **Expert Systems**
+
 - **Production Systems**: Rule-based inference mechanisms
 - **Rete Algorithm**: Efficient pattern matching for rule engines
 - **Inference Engines**: Forward and backward chaining implementations
 
 ### 9. **Logic-Based Search**
+
 - **First-Order Logic**: Predicate logic reasoning systems
 - **Resolution**: Automated theorem proving technique
 - **Chaining Methods**: Forward and backward chaining for logical inference
 
 ### 10. **Constraint Processing**
+
 - **Constraint Satisfaction Problems**: Systematic approaches to CSPs
 - **Arc Consistency**: Local consistency algorithms
 - **Backtracking**: Systematic search with constraint propagation
@@ -151,6 +162,7 @@ Each algorithm includes comprehensive tests and benchmarking:
 ```python
 from utils.test import test
 
+
 @test
 def your_algorithm():
     # Implementation here
@@ -160,6 +172,7 @@ def your_algorithm():
 ## 📊 Performance Analysis
 
 The repository includes performance analysis tools for:
+
 - Time complexity measurements
 - Space complexity analysis
 - Solution quality evaluation
@@ -176,6 +189,7 @@ The repository includes performance analysis tools for:
 ## 📝 Documentation
 
 Each algorithm family has detailed documentation including:
+
 - Theoretical background
 - Implementation details
 - Time and space complexity
@@ -194,4 +208,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🏷️ Tags
 
-`artificial-intelligence` `search-algorithms` `python` `graph-algorithms` `optimization` `heuristics` `game-theory` `constraint-satisfaction` `automated-planning` `expert-systems`
+`artificial-intelligence` `search-algorithms` `python` `graph-algorithms` `optimization` `heuristics` `game-theory`
+`constraint-satisfaction` `automated-planning` `expert-systems`

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7135106-a6af-47c3-8c4e-dcfd78371097" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/heuristic_search/best_first_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/state_space_search/depth_bound_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_search/depth_bound_dfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +47,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.best_first_search.executor": "Run",
     "Python.bfs.executor": "Run",
     "Python.dbdfs.executor": "Run",
     "Python.depth_bound_dfs.executor": "Run",
+    "Python.depth_first_search.executor": "Run",
     "Python.dfs.executor": "Run",
     "Python.graph.executor": "Run",
+    "Python.heuristic_graph.executor": "Run",
+    "Python.hill_climbing.executor": "Run",
     "Python.iterative_deepening.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.random_walk.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.timer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -108,15 +115,5 @@
       <updated>1754462280551</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/state_space_search/depth_first_search.py</url>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
