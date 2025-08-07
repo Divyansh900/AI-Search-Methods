@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7135106-a6af-47c3-8c4e-dcfd78371097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/heuristic_search/best_first_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="e7135106-a6af-47c3-8c4e-dcfd78371097" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +52,7 @@
     "Python.heuristic_graph.executor": "Run",
     "Python.hill_climbing.executor": "Run",
     "Python.iterative_deepening.executor": "Run",
+    "Python.iterative_hill_climb.executor": "Run",
     "Python.main.executor": "Run",
     "Python.random_walk.executor": "Run",
     "Python.test.executor": "Run",
