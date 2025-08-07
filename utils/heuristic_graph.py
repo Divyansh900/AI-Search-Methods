@@ -146,10 +146,6 @@ class Graph:
         """Get coordinates of a node."""
         return self.coordinates.get(node)
 
-    def get_target_nodes(self):
-        """Get the set of target nodes."""
-        return self.target_nodes.copy()
-
     def manhattan_distance(self, node1, node2='Z'):
         """
         Calculate Manhattan distance between two nodes.
