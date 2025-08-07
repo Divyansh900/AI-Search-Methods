@@ -1,3 +1,6 @@
+from typing_extensions import Optional
+
+
 class Graph:
     def __init__(self, target: str = 'H', alt=False):
         if alt:
@@ -69,5 +72,5 @@ class Graph:
     def remove_seen(self, seen: set, nodes):
         return [node for node in nodes if node not in seen]
 
-    def add_parent(self, nodes: list, parent):
-        return [(i, parent) for i in nodes]
+    def add_parent(self, nodes: list, parent, depth: Optional=None):
+        return [(i, parent, depth) for i in nodes] if depth else [(i, parent) for i in nodes]

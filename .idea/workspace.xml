@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e7135106-a6af-47c3-8c4e-dcfd78371097" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/State Space Search/breath_first_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_search/breath_first_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/State Space Search/depth_bound_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_search/depth_bound_dfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/State Space Search/depth_first_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_search/depth_first_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state_space_search/depth_bound_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/state_space_search/depth_bound_dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.bfs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dbdfs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dfs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graph.executor&quot;: &quot;Run&quot;,
-    &quot;Python.timer.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/CODE/NPTEL/AI_search_methods&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.bfs.executor": "Run",
+    "Python.dbdfs.executor": "Run",
+    "Python.depth_bound_dfs.executor": "Run",
+    "Python.dfs.executor": "Run",
+    "Python.graph.executor": "Run",
+    "Python.iterative_deepening.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.timer.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/CODE/NPTEL/AI_search_methods"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\CODE\NPTEL\AI_search_methods" />
