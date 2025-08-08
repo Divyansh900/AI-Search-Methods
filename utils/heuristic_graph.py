@@ -123,6 +123,9 @@ class Graph:
 
         return ind
 
+    def diff_score(self, a, b):
+        return self.heuristic_score(a) - self.heuristic_score(b)
+
     def remove_seen(self, seen_list, neighbors):
         return [i for i in neighbors if i not in seen_list]
 

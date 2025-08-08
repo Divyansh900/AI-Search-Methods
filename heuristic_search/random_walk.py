@@ -1,6 +1,6 @@
 from utils.test import test
 from utils.heuristic_graph import Graph
-import random as r
+import random
 
 @test
 def random_walk(start:str, target:str):
@@ -10,7 +10,7 @@ def random_walk(start:str, target:str):
     path = [start]
     while not graph.goal(node):
         n_nodes = graph.neighbors(node)
-        ind =  r.randint(0, len(n_nodes)-1)
+        ind =  random.randint(0, len(n_nodes)-1)
         node = n_nodes[ind]
         path.append(node)
 
